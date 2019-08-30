@@ -6,7 +6,7 @@ body {
 
 canvas {
   background-color: rgb(148, 193, 30);
-  margin: 0 auto;
+  margin: 2% auto 0 auto;
   border-top: 30px solid rgb(75, 72, 83);
   border-bottom: 30px solid rgb(75, 72, 83);
   border-left: 45px solid rgb(75, 72, 83);
@@ -29,14 +29,17 @@ p {
 }
 
 .pad {
-  text-align: left;
-  margin-top: 35px;
-  margin-left: 20px;
-  margin-right: 100px;
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
+  width: 8rem;
+  height: 8rem;
 }
 
 .buttons {
-  text-align: right;
-  margin-top: 35px;
-  margin-right: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+  float: right;
+  width: 8rem;
+  height: 8rem;
 }
